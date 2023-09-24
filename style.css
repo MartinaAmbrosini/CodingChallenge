@@ -1,0 +1,105 @@
+/* SELETTORE {
+    proprietà: valore;
+    proprietà: valore;
+} */
+
+body {
+
+    /* Background pagina*/
+
+    background-image: url("img/background.jpg");
+    background-size: 100%;
+}
+
+.container {
+
+    /* Sfondo opaco, squadrato, cemtrato*/
+    
+    text-align: center;
+    border-radius: 25px;
+    background: rgba(19, 23, 13, 0.74);
+    margin: auto;
+    margin-top: 5%;
+    width: 60%;
+    height: 750px;  
+}
+
+img {
+
+    /*Logo*/
+
+    margin-top: 3%;
+    align-items: center;
+    width: 20%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: hsl(120, 98%, 46%);
+}
+
+nav {
+
+    /*Altezza fissa in pixel per dare spessore al nav*/
+
+    background-color: hsl(120, 98%, 46%); 
+    margin: auto;
+    width: 80%;
+    height: 40px;   
+}
+
+.vertical-center {
+
+    /* Utilizzato per centrare verticalmente gli input del nav*/
+
+    margin: 0;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    position: relative;
+}
+
+main {
+    color: white;
+    text-align: left; 
+    margin-left: 10%;
+}
+
+.item {
+
+    /* Utilizzato per spaziare i vari div di class "item"*/
+
+    margin-top: 2%;
+    font-size: 15px;
+}
+
+#testo {
+    font-size: 22px;
+}
+
+p {
+    margin-top: 1%;
+    margin-bottom: 0;
+}
+
+.barra-carica1 {
+    background-color: #ebc056;
+    width: 25%;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.barra-carica2 {
+    background-color: #2ad12a ;
+    width: 60%;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.barra-carica3 {
+    background-color: #971515 ;
+    width: 10%;
+    height: 25px;
+    border-radius: 3px;
+}
